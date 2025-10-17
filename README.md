@@ -1,59 +1,64 @@
 # Power BI E-commerce Dashboard
 
 ## Project Overview
-This project is a **Power BI E-commerce Dashboard** built as part of my Data Analytics course. The dashboard is designed to help e-commerce businesses **track product growth, analyze sales performance, and make data-driven decisions**. Users can view growth trends by product, category, and state, along with other insightful metrics to optimize business strategies.
-
-## Key Features
-- Track **sales, revenue, and order volume** over time.
-- Analyze **product performance** and identify top-selling items.
-- Monitor **customer behavior and segmentation**.
-- Compare growth and sales across different **states/regions**.
-- Interactive visualizations for **drill-down analysis**.
-- Filters and slicers to focus on specific **products, time periods, or regions**.
-- Insights to **support business decisions** for marketing, inventory, and expansion.
-
-## Data Analytics Steps
-The dashboard was developed using a structured **Data Analytics workflow**:
-
-1. **Data Collection**  
-   - Collected e-commerce sales data, product details, and customer information from sample datasets.
-   
-2. **Data Cleaning**  
-   - Removed duplicates, handled missing values, and standardized data formats.
-   - Ensured consistency in date, product, and regional information.
-   
-3. **Data Transformation**  
-   - Created calculated columns for metrics like **profit margin**, **growth rate**, and **average order value**.
-   - Aggregated data by product, category, and state for visualization.
-   
-4. **Exploratory Data Analysis (EDA)**  
-   - Analyzed trends in sales, revenue, and orders.
-   - Identified top products, high-performing regions, and seasonal trends.
-   
-5. **Data Modeling**  
-   - Built relationships between **sales, products, and customer tables** in Power BI.
-   - Optimized model for faster report performance and interactive analysis.
-   
-6. **Visualization**  
-   - Designed charts, tables, and maps to highlight key metrics.
-   - Added slicers and drill-down features for interactive exploration.
-   
-7. **Insights & Reporting**  
-   - Interpreted trends and patterns to provide actionable insights.
-   - Prepared the dashboard for stakeholders to monitor business performance and make informed decisions.
-
-## Tools & Technologies
-- **Power BI Desktop** – for dashboard creation and data modeling.
-- **Excel / CSV** – as the primary data source.
-- **DAX (Data Analysis Expressions)** – for calculated metrics.
-- **Power Query** – for data cleaning and transformation.
-
-## How to Use
-1. Open the `.pbix` file in **Power BI Desktop**.
-2. Use the slicers to filter by **product, category, state, or time period**.
-3. Explore interactive charts and tables to analyze sales trends and product performance.
-4. Export insights or share the dashboard with stakeholders to support business decisions.
+This project is a **Power BI E-commerce Dashboard** built as part of my Data Analytics course.  
+It helps e-commerce businesses **track product growth, monitor sales performance, and make data-driven decisions**. Users can view growth trends by product, category, and state, along with other key metrics.
 
 ---
 
-This dashboard demonstrates the full **data analytics workflow** from raw data to actionable insights, helping e-commerce businesses **track growth and optimize strategies effectively**.
+## Dashboard Preview
+
+### Dashboard 1
+![Dashboard 1](Images/Dashboard 1.png)
+
+**Charts Used:**  
+- **Card/KPI Visuals** – Display key metrics like total sales, revenue, and orders.  
+- **Horizontal Bar Chart (x3)** – Compare product or category performance.  
+- **Vertical Column Chart** – Show trends over time (e.g., monthly sales).  
+- **Donut Chart (x2)** – Visualize share of categories or regions.  
+- **Horizontal Stacked Bar Chart** – Compare multiple measures across categories.
+
+### Dashboard 2
+![Dashboard 2](Images/Dashboard 2.png)
+
+**Charts Used:**  
+- **Map/Choropleth Map** – Display sales distribution by state or region.  
+- **Cascading Column Chart (Modified Waterfall Chart)** – Show incremental growth or revenue changes.  
+- **Gauge/Arc Meter Chart (x2)** – Track KPIs against targets.  
+- **Card/KPI Visuals** – Highlight important metrics at a glance.
+
+---
+
+## Key Features
+- Track **sales, revenue, and order volume** over time.  
+- Analyze **product performance** and top-selling items.  
+- Compare growth across different **states or regions**.  
+- Interactive visualizations with **filters and slicers** for detailed analysis.  
+- Supports **data-driven decision-making** for marketing, inventory, and strategy.
+
+---
+
+## Data Analytics Workflow
+1. **Data Collection** – Gathered sales, product, and customer data.  
+2. **Data Cleaning** – Removed duplicates, handled missing values, and standardized formats.  
+3. **Data Transformation** – Created calculated metrics like growth rate and profit margin.  
+4. **Exploratory Data Analysis (EDA)** – Identified trends, top products, and regional performance.  
+5. **Data Modeling** – Built relationships between tables in Power BI for interactive dashboards.  
+6. **Visualization** – Designed charts and visuals to highlight key insights.  
+7. **Reporting & Insights** – Interpreted trends to help businesses make informed decisions.
+
+---
+
+## Tools & Technologies
+- **Power BI Desktop** – Dashboard creation and data modeling.  
+- **Excel / CSV** – Primary data source.  
+- **DAX** – Calculated metrics and KPIs.  
+- **Power Query** – Data cleaning and transformation.  
+
+---
+
+## How to Use
+1. Open the `.pbix` file in **Power BI Desktop**.  
+2. Use slicers to filter by **product, category, state, or time period**.  
+3. Explore interactive charts to analyze trends and performance.  
+4. Share insights with stakeholders to support **business decisions**.
