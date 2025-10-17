@@ -9,7 +9,7 @@ It helps e-commerce businesses **track product growth, monitor sales performance
 ## Dashboard Preview
 
 ### Dashboard 1
-![Dashboard 1](Images/Dashboard 1.png)
+![Dashboard 1](Images/Dashboard%201.png)
 
 **Charts Used:**  
 - **Card/KPI Visuals** – Display key metrics like total sales, revenue, and orders.  
@@ -19,7 +19,7 @@ It helps e-commerce businesses **track product growth, monitor sales performance
 - **Horizontal Stacked Bar Chart** – Compare multiple measures across categories.
 
 ### Dashboard 2
-![Dashboard 2](Images/Dashboard 2.png)
+![Dashboard 2](Images/Dashboard%202.png)
 
 **Charts Used:**  
 - **Map/Choropleth Map** – Display sales distribution by state or region.  
